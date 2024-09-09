@@ -1,0 +1,22 @@
+header{
+    background-color: $bg-header;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    #logo{
+        width: 300px;
+        img{
+            width: 100%;
+        }
+    }
+    .navbar{
+        background-color: $bg-header;
+        width: 70%;
+        .navbar-nav {
+            flex: 1;
+            display: flex;
+            gap: 150px;
+            justify-content: center;
+        }
+    }
+}

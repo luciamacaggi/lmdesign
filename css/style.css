@@ -1,0 +1,57 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+header {
+  background-color: greenyellow;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+header #logo {
+  width: 300px;
+}
+header #logo img {
+  width: 100%;
+}
+header .navbar {
+  background-color: greenyellow;
+  width: 70%;
+}
+header .navbar .navbar-nav {
+  flex: 1;
+  display: flex;
+  gap: 150px;
+  justify-content: center;
+}
+
+main {
+  padding: 10px;
+  background-color: bisque;
+  color: fuchsia;
+}
+
+footer {
+  background-color: greenyellow;
+  padding: 10px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
