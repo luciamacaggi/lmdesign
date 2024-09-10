@@ -19,8 +19,16 @@ main {
   flex: 1;
 }
 
+.carta {
+  background-color: #A0EF25;
+}
+
+#link {
+  text-decoration: none;
+}
+
 header {
-  background-color: greenyellow;
+  background-color: #A0EF25;
   padding: 10px;
   display: flex;
   justify-content: space-evenly;
@@ -32,7 +40,7 @@ header #logo img {
   width: 100%;
 }
 header .navbar {
-  background-color: greenyellow;
+  background-color: #A0EF25;
   width: 70%;
 }
 header .navbar .navbar-nav {
@@ -44,12 +52,35 @@ header .navbar .navbar-nav {
 
 main {
   padding: 10px;
-  background-color: bisque;
-  color: fuchsia;
+  background-color: #018558;
+  color: rgb(173, 155, 251);
+}
+main .yinyang {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+}
+main .yinyang a #yin {
+  z-index: 1;
+}
+main .yinyang a #yang {
+  margin-top: 5px;
+  margin-left: -100px;
+  z-index: 2;
+}
+main .yinyang a img {
+  width: 300px;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+main .yinyang a img:hover {
+  transform: scale(1.2);
 }
 
 footer {
-  background-color: greenyellow;
+  background-color: #A0EF25;
   padding: 10px;
   text-align: center;
 }
